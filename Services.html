@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+  </head>
+  <center>
+    <h1>Bueford Services</h1>
+  </center>
+  <hr>
+  <body>
+    <center>
+      <table>
+        <tr>
+          <td>
+            <img src="Images/ServicesFunny.jpg" alt="Go complain somewhere else photo" width="250px">
+          </td>
+          <!-- Table and columns/data-->
+          <td>
+            <table border="1px" cellspacing= "4px">
+              <thead>
+                <tr>
+                  <th>Service</th>
+                  <th>Price</th>
+                  <th>Review's</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Vitrual House Cleaning</td>
+                  <td>$49.99</td>
+                  <td><img src="Images/borat.gif" alt="Borat for reviews"></td>
+                </tr>
+                <tr>
+                  <td>Professional Therapy Session</td>
+                  <td>$100.01</td>
+                  <td><img src="Images/borat.gif" alt="Borat for reviews"></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </center>
+
+    <br>
+    <center>
+      <h2>Submit A Service Request</h2>
+      <form class="RequestForm" action="mailto:name@email.com" method="post" enctype="text/plain">
+        <table frame = "border" bgcolor="Cyan">
+          <tr>
+            <td>
+              <label for="clientName">What is your name? </label>
+              <input type="text" name="clientName" value=""><br>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="clientAge">What is your Age? </label>
+              <input type="text" name="clientAge" value=""><br>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="clientSocial">What is your Social Security? </label>
+              <input type="text" name="clientSocial" value="">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="ServiceName">What service would you like? </label>
+              <input list="ServiceOptions" name="ServiceName">
+              <datalist id="ServiceOptions">
+                <option value="Vitrual House Cleaning"></option>
+                <option value="Professional Therapy Session"></option>
+              </datalist>
+            </td>
+          </tr>
+        </table>
+        <label for="">Are you sure you want me to have this info?</label>
+        <input type="submit" name="">
+      </form>
+    </center>
+
+  </body>
+</html>
+
+<!-- Table for episode 25 learning purpose
+<table border="1px">
+  <tbody>
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>Test</td>
+            <td>******</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>Test</td>
+            <td>***</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+table-->
